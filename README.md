@@ -21,3 +21,4 @@
 
 ##
 Feel free to modify the mod in any way you want, the suit could probably be quest locked but that's outside of my abilities for now.
+I've also added the Ultica armor sprites I personally use to the source code, you will have to replace the vanilla exoskeleton sprites yourself though.
