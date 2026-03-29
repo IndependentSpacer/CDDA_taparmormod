@@ -16,8 +16,8 @@
 
 ## 📁 Installation
 
-1. Download the mod  
-2. Place the mod folder into: Your cdda folder/data/mods/
+1. Download the mod file from the releases
+2. Place the mod folder (hub01_tap_armor_mod) into: Your cdda folder/data/mods/
 
 ##
 Feel free to modify the mod in any way you want, the suit could probably be quest locked but that's outside of my abilities for now.
