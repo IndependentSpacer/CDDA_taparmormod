@@ -1,0 +1,12 @@
+[
+  {
+    "type": "item_group",
+    "id": "robofac_basic_trade",
+    "extend": {
+      "items": [
+        { "item": "armor_tap", "prob": 100 },
+        { "item": "helmet_tap", "prob": 100 }
+      ]
+    }
+  }
+]

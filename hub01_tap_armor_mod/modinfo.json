@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "hub01_tap_armor_mod",
+    "name": "Hub 01 Tactical Armored Platesuit",
+    "authors": [ "independentspacer" ],
+    "description": "Adds a new composite HUB 01 designed armor set, along with a profession to go with it.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

@@ -1,0 +1,348 @@
+[
+{
+  "id": "armor_tap",
+  "type": "ITEM",
+  "subtypes": [
+    "ARMOR"
+  ],
+  "category": "armor",
+  "name": {
+    "str": "hub 01 tactical armored platesuit"
+  },
+  "description": "A composite full-body armor suit produced by Hub 01. Interlocking UHMWPE-steel plates backed with a continuous kevlar layer are arranged to overlap across the body, allowing mobility without complex joint mechanisms while reducing potential failure points and simplifying repairs. The suit provides strong protection against physical threats and low-caliber ballistic impacts, and includes an integrated plate carrier for ESAPI armor plates to improve resistance against high-velocity rounds. This level of protection comes at the cost of significant weight.",
+  "weight": "19 kg",
+  "volume": "17500 ml",
+  "price": "600 USD",
+  "price_postapoc": "200 USD",
+  "to_hit": {
+    "grip": "none",
+    "length": "hand",
+    "surface": "any",
+    "balance": "clumsy"
+  },
+  "material": [
+    "qt_steel",
+    "kevlar_rigid",
+    "thermo_resin",
+    "nylon"
+  ],
+  "symbol": "[",
+  "looks_like": "power_armor_light",
+  "color": "light_gray",
+  "warmth": 15,
+  "environmental_protection": 4,
+  "longest_side": "60 cm",
+  "material_thickness": 4,
+  "flags": [
+    "OUTER",
+    "WATERPROOF",
+    "NONCONDUCTIVE",
+    "STURDY",
+    "BLOCK_WHILE_WORN"
+  ],
+  "max_worn": 1,
+  "armor": [
+    {
+      "material": [
+        {
+          "type": "thermo_resin",
+          "covered_by_mat": 100,
+          "thickness": 0.6
+        },
+        {
+          "type": "qt_steel",
+          "covered_by_mat": 100,
+          "thickness": 0.6
+        },
+        {
+          "type": "kevlar_rigid",
+          "covered_by_mat": 100,
+          "thickness": 4.4
+        },
+        {
+          "type": "nylon",
+          "covered_by_mat": 92,
+          "thickness": 1.0
+        }
+      ],
+      "covers": [
+        "torso"
+      ],
+      "coverage": 95,
+      "encumbrance": 14
+    },
+    {
+      "material": [
+        {
+          "type": "thermo_resin",
+          "covered_by_mat": 100,
+          "thickness": 0.6
+        },
+        {
+          "type": "qt_steel",
+          "covered_by_mat": 100,
+          "thickness": 0.6
+        },
+        {
+          "type": "kevlar_rigid",
+          "covered_by_mat": 100,
+          "thickness": 4.4
+        }
+      ],
+      "covers": [
+        "arm_l",
+        "arm_r"
+      ],
+      "coverage": 95,
+      "encumbrance": 14
+    },
+    {
+      "material": [
+        {
+          "type": "thermo_resin",
+          "covered_by_mat": 100,
+          "thickness": 0.6
+        },
+        {
+          "type": "qt_steel",
+          "covered_by_mat": 100,
+          "thickness": 0.6
+        },
+        {
+          "type": "kevlar_rigid",
+          "covered_by_mat": 100,
+          "thickness": 4.4
+        }
+      ],
+      "covers": [
+        "leg_l",
+        "leg_r"
+      ],
+      "coverage": 95,
+      "encumbrance": 14
+    }
+  ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "2000 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "33 cm",
+        "moves": 800,
+        "description": "Pocket for a large armor plate.",
+        "//": "Should fit a medium ESAPI plate snugly",
+        "flag_restriction": [ "ABLATIVE_LARGE" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "2000 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "33 cm",
+        "moves": 800,
+        "description": "Pocket for a large armor plate.",
+        "flag_restriction": [ "ABLATIVE_LARGE" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "800 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "21 cm",
+        "moves": 800,
+        "description": "Pocket for a medium armor plate.",
+        "flag_restriction": [ "ABLATIVE_MEDIUM" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "800 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "21 cm",
+        "moves": 800,
+        "description": "Pocket for a medium armor plate.",
+        "flag_restriction": [ "ABLATIVE_MEDIUM" ]
+      }
+    ],
+  "melee_damage": {
+    "bash": 8
+  }
+},
+{
+  "id": "helmet_tap",
+  "type": "ITEM",
+  "subtypes": [ "ARMOR", "TOOL" ],
+  "category": "armor",
+  "name": { "str": "hub 01 tactical armored platesuit helmet" },
+  "description": "A fully enclosed helmet produced by Hub 01. Its outer shell is constructed from a UHMWPE-steel composite backed with kevlar, forming a rigid protective structure around the head. A single-piece transparent visor provides a wide field of view while maintaining protection against impacts and debris. The helmet integrates a powered air-purifying respirator system, providing exceptional environmental protection and reducing fatigue during extended use.  External mounting points allow for the attachment of additional equipment.",
+  "weight": "3761 g",
+  "volume": "3000 ml",
+  "longest_side": "30 cm",
+  "price": "650 USD",
+  "price_postapoc": "100 USD",
+  "to_hit": {
+    "grip": "none",
+    "length": "hand",
+    "surface": "any",
+    "balance": "clumsy"
+  },
+  "material": [
+    "kevlar_rigid",
+    "qt_steel",
+    "thermo_resin",
+    "butyl_rubber"
+  ],
+  "symbol": "[",
+  "looks_like": "power_armor_helmet_light",
+  "color": "light_gray",
+  "warmth": 15,
+  "material_thickness": 6,
+  "environmental_protection": 4,
+  "environmental_protection_with_filter": 16,
+  "flags": [
+    "WATERPROOF",
+    "STURDY",
+    "OUTER",
+    "NONCONDUCTIVE",
+    "PADDED",
+    "MODULE_HOLDER",
+    "PAPR_MASK",
+    "SUN_GLASSES"
+  ],
+  "armor": [
+    {
+      "material": [
+        {
+          "type": "thermo_resin",
+          "covered_by_mat": 100,
+          "thickness": 2.0
+        },
+        {
+          "type": "qt_steel",
+          "covered_by_mat": 100,
+          "thickness": 1.0
+        },
+        {
+          "type": "kevlar_rigid",
+          "covered_by_mat": 100,
+          "thickness": 4.4
+        }
+      ],
+      "covers": [ "head" ],
+      "specifically_covers": [
+        "head_crown",
+        "head_forehead",
+        "head_ear_l",
+        "head_ear_r"
+      ],
+      "coverage": 100,
+      "encumbrance": 25
+    },
+    {
+      "material": [
+        {
+          "type": "hard_plastic_transp",
+          "covered_by_mat": 100,
+          "thickness": 2
+        }
+      ],
+      "covers": [ "eyes" ],
+      "coverage": 100,
+      "encumbrance": 10,
+      "rigid_layer_only": true
+    },
+    {
+      "material": [
+        {
+          "type": "thermo_resin",
+          "covered_by_mat": 100,
+          "thickness": 2.0
+        },
+        {
+          "type": "qt_steel",
+          "covered_by_mat": 100,
+          "thickness": 1.0
+        },
+        {
+          "type": "kevlar_rigid",
+          "covered_by_mat": 100,
+          "thickness": 4.4
+        },
+        {
+          "type": "butyl_rubber",
+          "covered_by_mat": 100,
+          "thickness": 2
+        }
+      ],
+      "covers": [ "mouth" ],
+      "specifically_covers": [
+        "mouth_lips",
+        "mouth_nose",
+        "mouth_chin",
+        "mouth_cheeks"
+      ],
+      "coverage": 100,
+      "encumbrance": 10
+    },
+    {
+      "material": [
+        {
+          "type": "kevlar_rigid",
+          "covered_by_mat": 100,
+          "thickness": 4.4
+        }
+      ],
+      "covers": [
+        "head"
+      ],
+      "specifically_covers": [
+        "head_throat",
+        "head_nape"
+      ],
+      "coverage": 95,
+      "encumbrance": 0
+    }
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE_WELL",
+      "flag_restriction": [ "GASFILTER_MED" ],
+      "volume_encumber_modifier": 0,
+      "default_magazine": "gasfilter_med"
+    },
+    {
+      "pocket_type": "CONTAINER",
+      "ablative": true,
+      "volume_encumber_modifier": 0,
+      "max_contains_volume": "2 L",
+      "max_contains_weight": "2 kg",
+      "moves": 250,
+      "description": "Pocket for a front night vision attachment.",
+      "flag_restriction": [ "HELMET_FRONT_ATTACHMENT" ],
+      "inherits_flags": false
+    },
+    {
+      "pocket_type": "CONTAINER",
+      "volume_encumber_modifier": 0,
+      "max_contains_volume": "300 ml",
+      "max_contains_weight": "500 g",
+      "max_item_length": "14 cm",
+      "moves": 100,
+      "description": "Pocket for a flashlight attachment.",
+      "flag_restriction": [ "HELMET_HEAD_ATTACHMENT" ],
+      "transparent": true
+    }
+  ],
+  "use_action": [ "GASMASK_ACTIVATE" ],
+  "tick_action": [ "GASMASK" ],
+  "tool_ammo": "gasfilter_m",
+  "melee_damage": {
+    "bash": 1
+  }
+}
+]

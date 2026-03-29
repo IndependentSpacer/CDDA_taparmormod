@@ -1,0 +1,63 @@
+[
+  {
+    "type": "profession",
+    "id": "hubmerc",
+    "name": "Hub 01 Mercenary",
+    "requirement": "achievement_reach_hub01",
+    "description": "A mercenary employed by Hub 01, experienced with security and recovery operations in the post cataclysm world. Equipped with advanced composite armor and modern weaponry, you are trained to survive where others wouldn't last long. Whether due to portal storms, shifting priorities, or simple bad luck, you have lost contact with your employers. Until that changes, you're on your own.",
+    "points": 12,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_spotting",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 3, "name": "pistol" },
+      { "level": 4, "name": "melee" },
+      { "level": 3, "name": "stabbing" },
+      { "level": 3, "name": "dodge" },
+      { "level": 3, "name": "firstaid" },
+      { "level": 3, "name": "throw" },
+      { "level": 2, "name": "survival" },
+      { "level": 2, "name": "swimming" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "armor_tap" },
+          { "item": "helmet_tap" },
+          { "item": "military_vis_aug_system", "ammo-item": "battery", "charges": 500 },
+          { "item": "molle_papr_blower_off" },
+          { "item": "heavy_plus_battery_cell", "ammo-item": "battery", "charges": 503 },
+          { "item": "gasfilter_med" },
+          { "item": "heavy_steel_ballistic_plate", "count": 2 },
+          { "item": "qt_esbi_plate", "count": 2 },
+          { "item": "pants_army" },
+          { "item": "socks" },
+          { "item": "boots_combat" },
+          { "item": "gloves_tactical" },
+          { "item": "longshirt" },
+          { "item": "survivor_vest", "contents-group": "army_mags_m4" },
+          { "item": "rucksack" },
+          { "item": "multitool" },
+          { "item": "diving_watch" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "knife_combat_army", "variant": "m9bayonet", "container-item": "sheath" },
+          {
+            "group": "modular_m4a1",
+            "ammo-item": "556_mk318",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "holo_sight" ]
+          }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    }
+  }
+]
